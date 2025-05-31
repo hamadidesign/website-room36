@@ -1,0 +1,57 @@
+/* Issue Eight - Love Circles */
+.issue-eight {
+  z-index: 9;
+  background-image: url("/_media/img/i8/i8_banner.png");
+}
+
+/* Issue Seven - Cloudy New Year */
+.issue-seven {
+  z-index: 8;
+  background-image: url("/_media/img/i7/i7_banner.png");
+}
+
+/* Issue Six - In the Thick of It */
+.issue-six {
+  z-index: 7;
+  background-image: url("/_media/img/i6/i6_banner.png");
+}
+
+/* Issue Five - Sketches in the Making */
+.issue-five {
+  z-index: 6;
+  background-image: url("/_media/img/i5/i5_banner.png");
+}
+
+/* Issue Four - Figures and Spaces */
+.issue-four {
+  z-index: 5;
+  background-image: url("/_media/img/i4/i4_banner.png");
+}
+
+/* Issue Three - Keeping it Easy */
+.issue-three {
+  z-index: 4;
+  background-image: url("/_media/img/i3/i3_banner.png");
+}
+
+/* Issue Two - Stylin' Summer */
+.issue-two {
+  z-index: 3;
+  background-image: url("/_media/img/i2/i2_banner.png");
+}
+
+/* Issue One - Opening the Room */
+.issue-one {
+  z-index: 2;
+  background-image: url("/_media/img/i1/i1_banner.png");
+}
+
+.banner {
+  background-position: 50% 72%;
+  background-size: cover;
+}
+
+.banner h2,
+.banner p {
+  color: black;
+}

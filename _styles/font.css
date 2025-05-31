@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "stint-ultra-expanded";
+  src: url("/_media/fnt/stint-ultra-expanded/sur_regular.woff2") format("woff2"),
+    url("/_media/fnt/stint-ultra-expanded/sur_regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "abel";
+  src: url("/_media/fnt/abel/abel_regular.woff2") format("woff2"),
+    url("/_media/fnt/abel/abel_regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
