@@ -1,8 +1,68 @@
 /* Cover Sections */
 
 .cover-section {
-  background-color: #ffdcf1;
+  background-color: #ffe4dc;
   background-image: url("/_media/img/_bg/bg_main.png");
+}
+
+/* hamadi.design */
+
+#h-bg {
+  background-color: #fbf4ef;
+  background-image: url("/_media/img/_bg/bg_main.png");
+  z-index: 998;
+}
+
+#h-content {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#h-cap {
+  padding: 10px;
+
+  transform: rotate(-2deg);
+  position: relative;
+  top: 20px;
+
+  z-index: 2;
+  text-align: center;
+  width: 250px;
+}
+
+#h-div {
+  transform: rotate(-1deg);
+}
+
+#h-img {
+  image-rendering: pixelated;
+  width: 640px;
+}
+
+#h-cap-2 {
+  padding: 10px;
+
+  transform: rotate(2.5deg);
+  position: relative;
+  bottom: 20px;
+
+  z-index: 2;
+  max-width: 750px;
+  margin-left: 30px;
+}
+
+#h-cap-3 {
+  padding: 10px;
+
+  transform: rotate(1deg);
+  position: relative;
+  bottom: 30px;
+
+  z-index: 3;
+  margin-right: 30px;
+  align-self: flex-end;
 }
 
 /* tjdíno */
@@ -16,9 +76,13 @@
 #t-content {
   max-width: 600px;
   margin: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#t-cap {
+#t-cap-1 {
   transform: rotate(-2deg);
   position: relative;
   top: 20px;
@@ -29,14 +93,24 @@
   margin-left: 30px;
 }
 
-#t-img {
+#t-cap-2 {
+  transform: rotate(-2deg);
+  position: relative;
+  bottom: 40px;
+
+  z-index: 2;
+  margin-left: 30px;
+}
+
+#t-div {
   transform: rotate(0.5deg);
+  width: 65%;
 }
 
 /* jtgraphicx */
 
 #j-bg {
-  background-color: #fffaf0;
+  background-color: #dee4e3;
   background-image: url("/_media/img/_bg/bg_main.png");
   z-index: 996;
 }
@@ -70,6 +144,12 @@
   max-width: 600px;
 
   align-self: flex-start;
+}
+
+#j-img {
+  max-width: 360px;
+
+  transform: rotate(-8deg);
 }
 
 #j-vid {
@@ -139,7 +219,7 @@
 /* MELON */
 
 #m-bg {
-  background-color: #e0f2f7;
+  background-color: #e3f8ec;
   background-image: url("/_media/img/_bg/bg_main.png");
   z-index: 995;
 }
@@ -147,7 +227,7 @@
 #m-cap {
   transform: rotate(-3deg);
   position: relative;
-  top: 20px;
+  top: 100px;
 
   z-index: 2;
   text-align: center;
@@ -161,14 +241,27 @@
   flex-direction: column;
 }
 
-#m-img {
+#m-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#m-img-1 {
   transform: rotate(2deg);
+  max-width: 360px;
+}
+
+#m-img-2 {
+  transform: rotate(-4deg);
+
+  max-width: 360px;
 }
 
 #m-cap-2 {
   margin-right: 20px;
 
-  transform: rotate(-3deg);
+  transform: rotate(3deg);
   position: relative;
   bottom: 20px;
 
@@ -238,60 +331,4 @@
   max-width: 600px;
 
   z-index: 2;
-}
-
-/* hamadi.design */
-
-#h-bg {
-  background-color: #fbe9db;
-  background-image: url("/_media/img/_bg/bg_main.png");
-  z-index: 998;
-}
-
-#h-content {
-  margin: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#h-cap {
-  padding: 10px;
-
-  transform: rotate(-2deg);
-  position: relative;
-  top: 20px;
-
-  z-index: 2;
-  text-align: center;
-  width: 250px;
-}
-
-#h-img {
-  max-width: 400px;
-  transform: rotate(-1deg);
-}
-
-#h-cap-2 {
-  padding: 10px;
-
-  transform: rotate(2.5deg);
-  position: relative;
-  bottom: 20px;
-
-  z-index: 2;
-  max-width: 750px;
-  margin-left: 30px;
-}
-
-#h-cap-3 {
-  padding: 10px;
-
-  transform: rotate(1deg);
-  position: relative;
-  bottom: 30px;
-
-  z-index: 3;
-  margin-right: 30px;
-  align-self: flex-end;
 }

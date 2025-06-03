@@ -1,3 +1,9 @@
+/* Issue Nine - And the Time Goes By */
+.issue-nine {
+  z-index: 10;
+  background-image: url("/_media/img/i9/i9_banner.png");
+}
+
 /* Issue Eight - Love Circles */
 .issue-eight {
   z-index: 9;
