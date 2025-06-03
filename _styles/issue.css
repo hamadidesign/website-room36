@@ -1,3 +1,9 @@
+/* Issue Ten - Double Digits */
+.issue-ten {
+  z-index: 11;
+  background-image: url("/_media/img/i10/i10_banner.png");
+}
+
 /* Issue Nine - And the Time Goes By */
 .issue-nine {
   z-index: 10;
